@@ -1,0 +1,125 @@
+#rival-deck, #rival-hero, #rival-cards, #my-cards, #my-deck, #my-hero{
+    text-align: center;
+}
+.card{
+width: 50px;
+height: 75px;
+display: inline-block;
+position: relative;
+border: 1px solid black;
+margin-bottom: 10px;
+}
+.hero{
+width: 70px;
+height: 105px;
+display: inline-block;
+position: relative;
+border: 1px solid black;
+margin-bottom: 10px;
+}
+
+.card-name{
+text-align: center;
+font-size: 12px;
+}
+.card-att, .card-hp, .card-cost{
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+}
+.card-att{
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+}
+.card-hp{
+    bottom: 0;
+    right: 0;
+    background-color: red;
+}
+.card-cost{
+    top: 0;
+    left: 0;
+    background-color: #add8e6;
+}
+#turn-end{
+    float: right;
+    position: relative;
+    top: -23px;
+}
+#my-cards{
+    position: relative;
+    left: 26px;
+}
+
+/*
+#rival-cost {
+    width: 60px;
+    height: 33px;
+    background: #add8e6;
+    position: relative;
+    text-align: center;
+    left: 200px;
+  }
+#rival-cost:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 15px solid #add8e6;
+  }
+#rival-cost:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #add8e6;
+  } 
+*/
+
+#cost {
+    width: 60px;
+    height: 33px;
+    background: #add8e6;
+    position: relative;
+    text-align: center;
+    left:1600px;
+  }
+
+#cost:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 15px solid #add8e6;
+  }
+#cost:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 15px solid #add8e6;
+  } 
